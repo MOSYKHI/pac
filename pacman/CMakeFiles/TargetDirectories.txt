@@ -1,0 +1,3 @@
+/home/mosy/Desktop/96106088/pacman/CMakeFiles/rebuild_cache.dir
+/home/mosy/Desktop/96106088/pacman/CMakeFiles/edit_cache.dir
+/home/mosy/Desktop/96106088/pacman/CMakeFiles/project.dir

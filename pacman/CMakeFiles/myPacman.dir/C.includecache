@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mosy/Desktop/96106088/pacman/src/game.c
+game.h
+/home/mosy/Desktop/96106088/pacman/src/game.h
+
+/home/mosy/Desktop/96106088/pacman/src/game.h
+stdbool.h
+-
+map.h
+/home/mosy/Desktop/96106088/pacman/src/map.h
+
+/home/mosy/Desktop/96106088/pacman/src/input.h
+
+/home/mosy/Desktop/96106088/pacman/src/map.h
+
+/home/mosy/Desktop/96106088/pacman/src/physics.c
+physics.h
+/home/mosy/Desktop/96106088/pacman/src/physics.h
+
+/home/mosy/Desktop/96106088/pacman/src/physics.h
+game.h
+/home/mosy/Desktop/96106088/pacman/src/game.h
+input.h
+/home/mosy/Desktop/96106088/pacman/src/input.h
+

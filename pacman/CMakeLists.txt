@@ -1,0 +1,12 @@
+cmake_minimum_required ( VERSION 3.9)
+project (project)
+
+set(CMAKE_C_STANDARD 99)
+set(SOURCE src/physics.c src/game.c src/game.h src/physics.h src/input.h src/map.h)
+add_executable (project ${SOURCE})
+include_directories (src)
+add_library (lib STATIC IMPORTED)
+set_target_properties (lib PROPERTIES IMPORTED_LOCATION "/home/mosy/Desktop/96106088/pacman/liblib.a")
+target_link_libraries (project lib)
+target_link_libraries (project m SDL2 SDL2_gfx)
+add_definitions (-D_REENTRANT)

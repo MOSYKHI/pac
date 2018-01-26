@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mosy/Desktop/96106088/pacman"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mosy/Desktop/96106088/pacman"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mosy/Desktop/96106088/pacman"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project">
+				<Option output="/home/mosy/Desktop/96106088/pacman/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mosy/Desktop/96106088/pacman"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_REENTRANT"/>
+					<Add directory="/home/mosy/Desktop/96106088/pacman/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project/fast">
+				<Option output="/home/mosy/Desktop/96106088/pacman/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mosy/Desktop/96106088/pacman"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_REENTRANT"/>
+					<Add directory="/home/mosy/Desktop/96106088/pacman/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mosy/Desktop/96106088/pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/game.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/game.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/input.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/map.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/physics.c">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/src/physics.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/mosy/Desktop/96106088/pacman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
